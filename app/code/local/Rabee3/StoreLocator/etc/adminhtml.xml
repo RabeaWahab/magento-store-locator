@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<config>
+    <menu>
+        <sales>
+            <children>
+                <storelocator_index translate="title" module="storelocator">
+                    <title>Store Locations</title>
+                    <action>adminhtml/locations</action>
+                </storelocator_index>
+            </children>
+        </sales>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <sales>
+                        <children>
+                            <storelocator_index>
+                                <title>Store Locations</title>
+                            </storelocator_index>
+                        </children>
+                    </sales>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

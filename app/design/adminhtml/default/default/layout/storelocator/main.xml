@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout>
+    <adminhtml_locations_index>
+        <reference name="content">
+            <block type="storelocator/adminhtml_locations" name="storelocator_locations" />
+        </reference>
+    </adminhtml_locations_index>
+</layout>

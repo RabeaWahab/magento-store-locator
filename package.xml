@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Rabee3_StoreLocator</name>
+    <version>0.2.0</version>
+    <stability>stable</stability>
+    <license>GPLv3</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Simple map to show your store locations</summary>
+    <description>Simple map to show your store locations</description>
+    <notes>Maps + Admin Panel</notes>
+    <authors><author><name>Rabee AbdelWahab</name><user>Rabee3</user><email>wahab.r@gmail.com</email></author></authors>
+    <date>2015-06-10</date>
+    <time>03:01:07</time>
+    <contents><target name="magelocal"><dir name="Rabee3"><dir name="StoreLocator"><dir name="Block"><dir name="Adminhtml"><dir name="Locations"><dir name="Edit"><file name="Form.php" hash="8f6bf19dead389df5d6fa7f09c182ee2"/></dir><file name="Edit.php" hash="526ee6682b98e456ec1443b69e86e468"/><file name="Grid.php" hash="7b62788b31608f10cb99224703d091d4"/></dir><file name="Locations.php" hash="eb2d08fa45e1ce82d05b824128ff0f35"/></dir><file name="Main.php" hash="104620119c29eb044ce8e8c6d490a58c"/></dir><dir name="Helper"><file name="Data.php" hash="2bbdbc1d38e5f2640234b9657ff7c5e8"/></dir><dir name="Model"><file name="Locations.php" hash="b43667a93cd2211a4836c6572f9b605f"/><dir name="Mysql4"><dir name="Locations"><file name="Collection.php" hash="0401f13676a949de341ee4efaaccd13b"/></dir><file name="Locations.php" hash="3602b4f5fd8ab207d3f9815051127420"/></dir></dir><dir name="controllers"><dir name="Adminhtml"><file name="LocationsController.php" hash="138806aa00d906f9da4fa608b3ced6cd"/></dir><file name="IndexController.php" hash="56e9893df0590e7b7de7676de6834630"/></dir><dir name="etc"><file name="adminhtml.xml" hash="22c170be5b76a1ff8d96ab078aa1310a"/><file name="config.xml" hash="d2cd0aed989784099ea2c0ccb35ab02e"/></dir><dir name="sql"><dir name="storelocator_setup"><file name="mysql4-install-0.1.0.php" hash="d7e51996c4df74bddccae57537926508"/><file name="mysql4-upgrade-0.1.0-0.2.0.php" hash="0ff7b1cc8596bc275524f3fed8c647ec"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Rabee3_StoreLocator.xml" hash="f0578bc745d200b58a7e21db9e35b051"/></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><dir name="storelocator"><file name="main.xml" hash="1aee0181cbd28ce9cabb9ba229a69a50"/></dir></dir></dir></dir></dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><dir name="storelocator"><file name="main.xml" hash="c1d72693527816d8549c76df19947864"/></dir></dir><dir name="template"><dir name="storelocator"><file name="main.phtml" hash="d688386a107994beac5d3a12859e3da9"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.4.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

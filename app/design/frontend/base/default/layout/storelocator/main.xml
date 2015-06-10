@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<layout version="0.1.0">
+	<storelocator_index_index>
+        <reference name="root">
+            <action method="setTemplate"><template>page/1column.phtml</template></action>
+        </reference>
+        <reference name="content">
+        	<block type="storelocator/main" name="storelocator_main" template="storelocator/main.phtml" />
+        </reference>
+	</storelocator_index_index>
+</layout>

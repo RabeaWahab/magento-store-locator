@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<config>
+	<modules>
+		<Rabee3_StoreLocator>
+			<active>true</active>
+			<codePool>local</codePool>
+		</Rabee3_StoreLocator>
+	</modules>
+</config>
