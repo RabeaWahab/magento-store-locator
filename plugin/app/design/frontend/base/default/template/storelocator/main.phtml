@@ -8,7 +8,7 @@
           <input type="text" class="form-control input-text required-entry" name="zipcode" id="zipcode" placeholder="Enter Zip Code">
         </div>
   	</div>
-  	<div class="form-group grid_4"> 
+  	<div class="form-group grid_4">
         <div class="col-sm-offset-2 col-sm-10">
           <button type="submit" class="btn btn-default" onclick="getStores();">Search</button>
         </div>
@@ -51,19 +51,19 @@ function initialize() {
 				for(i=0; i < stores.length; i++) {
 					var longitude = String(stores[i].longitude);
 					var latitude  = String(stores[i].latitude);
-					
+
 		            var myLatlng = new google.maps.LatLng(latitude, longitude);
 		            bounds.extend(myLatlng);
 
 		            marker = new google.maps.Marker({
 			            position: myLatlng,
 			            map: map,
-			            title: String(stores[i].name)            
+			            title: String(stores[i].name)
 			        });
 
 					google.maps.event.addListener(marker, 'click', (function(marker, i) {
 						return function() {
-						  infowindow.setContent(stores[i].name);
+						  infowindow.setContent(stores[i].name + " \n" + stores[i].address);
 						  infowindow.open(map, marker);
 						}
 					})(marker, i));
