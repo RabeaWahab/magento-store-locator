@@ -15,8 +15,8 @@ Magento CE 1.5+ and EE 1.1+
 ```
 cd MAGENTO_ROOT
 modgit init
-modgit -i plugin/:. add Rabee3_Slack https://github.com/rabee3/magento-slack.git
-
+modgit -i plugin/:. add Rabee3_StoreLocator https://github.com/rabee3/magento-store-locator.git
+```
 
 ## To do List
 - Setup configuration for Google API key.
