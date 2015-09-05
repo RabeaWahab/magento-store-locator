@@ -45,6 +45,7 @@ class Rabee3_StoreLocator_Block_Adminhtml_Locations_Grid extends Mage_Adminhtml_
             array(
                 'header'=> $this->__('Store Name'),
                 'index' => 'name'
+                //'renderer' => 'DrDabber_Forms_Block_Adminhtml_Customers_Renderer_Customer',
             )
         );
 

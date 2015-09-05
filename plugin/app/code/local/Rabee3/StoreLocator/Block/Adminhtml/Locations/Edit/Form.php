@@ -13,7 +13,7 @@ class Rabee3_StoreLocator_Block_Adminhtml_Locations_Edit_Form extends Mage_Admin
       );
 
       $fieldset = $form->addFieldset('locations_form', array('legend'=>Mage::helper('storelocator')->__('Location Information')));
-     
+
       $fieldset->addField('name', 'text', array(
           'label'     => Mage::helper('storelocator')->__('Store Name'),
           'class'     => 'required-entry',
@@ -33,6 +33,13 @@ class Rabee3_StoreLocator_Block_Adminhtml_Locations_Edit_Form extends Mage_Admin
           'class'     => 'required-entry',
           'required'  => true,
           'name'      => 'zipcode',
+      ));
+
+      $fieldset->addField('phone', 'text', array(
+          'label'     => Mage::helper('storelocator')->__('Phone Number'),
+          'class'     => 'required-entry',
+          'required'  => true,
+          'name'      => 'phone',
       ));
 
       $fieldset->addField('longitude', 'text', array(
@@ -72,7 +79,7 @@ class Rabee3_StoreLocator_Block_Adminhtml_Locations_Edit_Form extends Mage_Admin
       } elseif ( Mage::registry('locations_data') ) {
           $form->setValues(Mage::registry('locations_data')->getData());
       }
-      
+
       $form->setUseContainer(true);
       $this->setForm($form);
       return parent::_prepareForm();

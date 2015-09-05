@@ -2,7 +2,7 @@
 <config>
 	<modules>
 		<Rabee3_StoreLocator>
-			<version>0.2.0</version>
+			<version>0.3.0</version>
 		</Rabee3_StoreLocator>
 	</modules>
 	<global>

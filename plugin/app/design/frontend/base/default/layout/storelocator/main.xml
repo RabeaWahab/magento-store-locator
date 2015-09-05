@@ -4,6 +4,13 @@
         <reference name="root">
             <action method="setTemplate"><template>page/1column.phtml</template></action>
         </reference>
+		<reference name="head">
+	        <action method="addCss"><stylesheet>css/locator.css</stylesheet><params>media="screen"</params></action>
+			<action method="addJs"><script>js/locator.js</script></action>
+
+			<action method="addItem"><type>skin_css</type><name>locator/main.css</name></action>
+			<action method="addItem"><type>skin_js</type><name>locator/main.js</name></action>
+	    </reference>
         <reference name="content">
         	<block type="storelocator/main" name="storelocator_main" template="storelocator/main.phtml" />
         </reference>
