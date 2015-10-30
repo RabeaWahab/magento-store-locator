@@ -1,0 +1,15 @@
+{
+  "name": "Rabee3/StoreLocator",
+  "license": "MIT",
+  "type": "magento-module",
+  "description": "Store Locator for Magento using Google Maps, currently supports community 1.5+",
+  "homepage": "https://github.com/rabee3/magento-store-locator",
+  "require": {
+    "magento-hackathon/magento-composer-installer": "*"
+  },
+  "authors":[
+    {
+      "name":"Rabee Abdelwahab"
+    }
+  ]
+}

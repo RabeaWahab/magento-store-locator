@@ -1,0 +1,17 @@
+# Rabee3 StoreLocator
+## config
+plugin/app/etc/modules/Rabee3_StoreLocator.xml                  app/etc/modules/Rabee3_StoreLocator.xml
+
+## module
+plugin/app/code/local/Rabee3/StoreLocator                       app/code/local/Rabee3/StoreLocator
+
+## admin template
+plugin/app/design/adminhtml/default/default/layout/storelocator app/design/adminhtml/default/default/layout/storelocator
+
+## frontend template
+plugin/app/design/frontend/base/default/layout/storelocator     app/design/frontend/base/default/layout/storelocator
+plugin/app/design/frontend/base/default/template/storelocator   app/design/frontend/base/default/template/storelocator
+
+## skin
+plugin/skin/frontend/base/default/css/locator/main.css          skin/frontend/base/default/css/locator/main.css
+plugin/skin/frontend/base/default/js/locator/main.js            skin/frontend/base/default/js/locator/main.js
